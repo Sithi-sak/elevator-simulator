@@ -2,6 +2,10 @@
 
 <p>This is a simple simulation of an elevator system created to demonstrate basic elevator functionalities such as movement between floors, opening and closing doors, and more. This project is designed to be a fun and educational tool for understanding how an elevator works at a fundamental level.</p>
 
+## Screenshot
+
+<img src="./images/elevator_screenshot.png" />
+
 ## Techstack
 
 <div align="left">
