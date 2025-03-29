@@ -20,6 +20,140 @@ body {
   height: 896px;
 }
 
+.indoor-button_right {
+  width: 5px;
+  height: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  position: absolute;
+  z-index: 4;
+}
+
+.indoor-button_right.f8 {
+  top: 58px;
+  left: 325px;
+}
+
+.indoor-button_right.f7 {
+  top: 170px;
+  left: 325px;
+}
+
+.indoor-button_right.f6 {
+  top: 282px;
+  left: 325px;
+}
+
+.indoor-button_right.f5 {
+  top: 394px;
+  left: 325px;
+}
+
+.indoor-button_right.f4 {
+  top: 506px;
+  left: 325px;
+}
+
+.indoor-button_right.f3 {
+  top: 618px;
+  left: 325px;
+}
+
+.indoor-button_right.f2 {
+  top: 730px;
+  left: 325px;
+}
+
+.indoor-button_right.f1 {
+  top: 842px;
+  left: 325px;
+}
+
+.indoor-button_right button {
+  background: #141414;
+  padding: 0;
+  width: 6px;
+  min-height: 6px;
+  border-radius: 0;
+}
+
+.indoor-button_right button:focus {
+  background: #ff1010;
+  padding: 0;
+  width: 6px;
+  min-height: 6px;
+  border-radius: 0;
+}
+
+.indoor-button_left {
+  width: 5px;
+  height: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  position: absolute;
+  z-index: 4;
+}
+
+.indoor-button_left.f8 {
+  top: 58px;
+  left: 309px;
+}
+
+.indoor-button_left.f7 {
+  top: 170px;
+  left: 309px;
+}
+
+.indoor-button_left.f6 {
+  top: 282px;
+  left: 309px;
+}
+
+.indoor-button_left.f5 {
+  top: 394px;
+  left: 309px;
+}
+
+.indoor-button_left.f4 {
+  top: 506px;
+  left: 309px;
+}
+
+.indoor-button_left.f3 {
+  top: 618px;
+  left: 309px;
+}
+
+.indoor-button_left.f2 {
+  top: 730px;
+  left: 309px;
+}
+
+.indoor-button_left.f1 {
+  top: 842px;
+  left: 309px;
+}
+
+.indoor-button_left button {
+  background: #141414;
+  padding: 0;
+  width: 6px;
+  min-height: 6px;
+  border-radius: 0;
+}
+
+.indoor-button_left button:focus {
+  background: #ff1010;
+  padding: 0;
+  width: 6px;
+  min-height: 6px;
+  border-radius: 0;
+}
+
 .bg,
 .fg,
 .cover {
@@ -67,7 +201,7 @@ body {
 .control-panel {
   background: #e8e8e8;
   width: 200px;
-  height: 640px;
+  height: 540px;
   padding: 1rem;
   border-radius: 0.25rem;
   box-shadow: rgb(255, 255, 255, 0.7) 0 4px 20px 0;
